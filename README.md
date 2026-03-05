@@ -2,10 +2,10 @@
   <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/banner.png" alt="Banner" width="100%" />
 </p>
 
-<h1 align="center">Hi, I am Russell Abarte Jr 👋</h1>
+<h1 align="center">Russell Abarte Jr 👋</h1>
 
 <p align="center">
-  <b>Azure-first Data Engineer | AI Practitioner</b>
+  <b>Data Engineer | AI Practitioner</b>
 </p>
 
 <p align="center">
