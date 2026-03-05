@@ -1,25 +1,21 @@
-<!-- ========================= -->
-<!--        HERO HEADER        -->
-<!-- ========================= -->
-
 <p align="center">
-  <!-- Option A: Use a banner image stored in your repo -->
-  <!-- Create assets/banner.png (recommended for the exact look you showed) -->
   <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/banner.png" alt="Banner" width="100%" />
 </p>
 
-<h1 align="center">YOUR_NAME</h1>
+<h1 align="center">Hi, I am Russell Abarte Jr 👋</h1>
 
 <p align="center">
-  <b>Full Stack Developer | AI Enthusiast</b>
+  <b>Azure-first Data Engineer | AI Practitioner</b>
 </p>
 
 <p align="center">
-  <a href="https://YOUR_PORTFOLIO_LINK">Portfolio</a>
+  <a href="YOUR_PORTFOLIO_LINK">Portfolio</a>
   &nbsp;|&nbsp;
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a>
+  <a href="YOUR_LINKEDIN_LINK">LinkedIn</a>
   &nbsp;|&nbsp;
   <a href="mailto:YOUR_EMAIL">Email</a>
+  &nbsp;|&nbsp;
+  <a href="YOUR_RESUME_LINK">Resume</a>
 </p>
 
 <p align="center">
@@ -28,166 +24,78 @@
 
 <hr/>
 
-<!-- ========================= -->
-<!--     SIGNATURE PROJECTS    -->
-<!-- ========================= -->
+## 🚀 Featured Project: Integrated Test Evidence Package (ITEP) — Field-Data-First Systems Integration & Test
 
-## 🚀 Signature Projects
+**Tagline (for GitHub “About”):** Field-like telemetry → ICDs → automated V&V → performance evaluation (Python + MATLAB) → RCA + re-test evidence.  
+**Repo:** <REPO_LINK>
 
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <h3>Database Management System</h3>
+I’m building a **portfolio-quality Integrated Test Evidence Package (ITEP)** that mirrors real **Systems Integration & Test** work end-to-end. The project starts from **public, field-like telemetry datasets** (treated as captured instrumentation logs), then layers on **interface contracts (ICDs)**, a **validated data pipeline**, **automated verification (V&V)** with objective pass/fail thresholds, **performance evaluation**, and **failure analysis/RCA** with corrective actions and re-test proof.
 
-      <!-- Optional mini banner image for the card -->
-      <!-- <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/project_dbms.png" width="100%" alt="DBMS" /> -->
+This is **evidence-first and reproducible**: each run ties together dataset version (manifest + hashes), configuration, git commit SHA, test results, and saved evidence (plots/reports/log excerpts).
 
-      <ul>
-        <li>Built a web app that supports natural-language queries and structured database operations.</li>
-        <li>Designed schema and RBAC to protect sensitive data.</li>
-        <li>Improved query accuracy with retrieval-augmented techniques.</li>
-      </ul>
+### What’s in the ITEP (evidence you can review)
+- **Dataset manifest** (source, license/provenance, SHA-256) + **data dictionary** (fields, units, expected ranges)
+- **Run database** tracking: `run_id`, config, dataset version, git SHA, pass/fail, evidence paths
+- **Interface Control Documents (ICDs)**: protocol framing, file formats, schema/contracts, example frames
+- **Requirements** (testable “shall” statements with thresholds) + **traceability matrix** (Req → test → evidence)
+- **Test plan + test cases** with objective pass/fail criteria and captured outputs
+- **Automated verification suite (pytest)** producing regression-friendly results in `results/`
+- **Performance evaluation** (timing/jitter, dropouts, drift metrics) in **Python** + **MATLAB parity** script/plot
+- **C / Embedded C++ protocol codec or simulator** with unit tests (plus optional **C# utility** exposure)
+- **≥2 RCA reports**: reproduce → root cause → fix → **re-test evidence**
+- **Versioned baselines** (git tags/releases) + concise release notes
+- **Stakeholder-ready reporting**: a one-page briefing + test report artifacts
 
-      <p>
-        <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Django-111111?style=for-the-badge&logo=django&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/RAG-111111?style=for-the-badge" />
-      </p>
+### Skills demonstrated (mapped to Systems Integration & Test roles)
+- **Verification & Validation:** requirements → test design → automated execution → evidence capture
+- **Interface engineering:** ICD authoring, data contracts, schema validation, configuration control
+- **Troubleshooting/RCA:** failure reproduction, root-cause analysis, corrective action, regression prevention
+- **Performance evaluation:** metrics/plots in Python + MATLAB parity to show tool fluency
+- **Software engineering practice:** automation, CI-friendly testing, version control, release baselines
+- **Embedded/protocol work:** C/C++ codec/simulator, frame parsing, CRC/endianness, unit testing
 
-      <p>
-        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_1">Repo</a>
-        &nbsp;|&nbsp;
-        <a href="https://YOUR_DEMO_1">Live Demo</a>
-      </p>
-    </td>
+### How to talk about it in interviews (quick script)
+- “I built an end-to-end integration test evidence package: **public field-like logs → ICDs → requirements/traceability → automated V&V → performance analysis → RCA + re-test proof**.”
+- “Every run is **reproducible and audit-ready**: dataset hash + config + git SHA + pass/fail + saved evidence.”
+- “It demonstrates the same workflow used in system test support: **define interfaces, validate data, automate verification, debug failures, and brief stakeholders**.”
 
-    <td valign="top" width="33%">
-      <h3>NBA Statistics Dashboard</h3>
-
-      <ul>
-        <li>Interactive dashboard for real-time player and team metrics.</li>
-        <li>API integration for current season stats.</li>
-        <li>Search, filter, and responsive visualization workflow.</li>
-      </ul>
-
-      <p>
-        <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white" />
-        <img src="https://img.shields.io/badge/D3.js-111111?style=for-the-badge&logo=d3dotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/REST%20API-111111?style=for-the-badge" />
-      </p>
-
-      <p>
-        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_2">Repo</a>
-        &nbsp;|&nbsp;
-        <a href="https://YOUR_DEMO_2">Live Demo</a>
-      </p>
-    </td>
-
-    <td valign="top" width="33%">
-      <h3>Research Assistant Projects</h3>
-
-      <ul>
-        <li>Supported ML experimentation and evaluation workflows.</li>
-        <li>Applied NLP techniques to literature and dataset processing.</li>
-        <li>Documented findings and technical implementation notes.</li>
-      </ul>
-
-      <p>
-        <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/TensorFlow-111111?style=for-the-badge&logo=tensorflow&logoColor=white" />
-        <img src="https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas&logoColor=white" />
-      </p>
-
-      <p>
-        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_3">Repo</a>
-        &nbsp;|&nbsp;
-        <a href="https://YOUR_RESEARCH_OR_NOTES_LINK">Notes</a>
-      </p>
-    </td>
-  </tr>
-</table>
+*Built by Russell Abarte Jr. Data is public/open or synthetic from public specs only. No employer/customer/controlled data used.*
 
 <hr/>
 
-<!-- ========================= -->
-<!--   ELITE PROFESSIONAL EXP  -->
-<!-- ========================= -->
+## 🚀 Featured Portfolio: AzureOps Lakehouse (Flagship)
 
-## 💼 Elite Professional Experience
+**What it is:** An Azure lakehouse that ingests data from multiple sources, transforms it into analytics-ready models, logs every run for traceability, validates data quality, and publishes curated KPI datasets for Power BI.  
+**Why it matters:** Shows real-world practices: idempotent reruns, incremental loads, star schema design, and observable pipelines.
 
-<table>
-  <tr>
-    <th align="left">Position</th>
-    <th align="left">Company</th>
-    <th align="left">Duration</th>
-    <th align="left">Key Achievements</th>
-  </tr>
+### Highlights
+- Bronze/Silver/Gold storage layout with incremental loads and safe reruns (idempotent)
+- Star schema (facts + dimensions) in a SQL warehouse (Postgres/Azure SQL)
+- Run audit logging (e.g., `meta_run_audit`) and data quality logging (e.g., `meta_data_quality`)
+- Containerized execution + secrets management (Azure Key Vault)
+- Power BI KPI layer for operational reporting
 
-  <tr>
-    <td><b>Research Assistant</b></td>
-    <td>NDSU (Biomedical ML / LLM Research)</td>
-    <td>Sep 2024 - Apr 2025</td>
-    <td>
-      <ul>
-        <li>Built and evaluated ML pipelines for healthcare or research datasets.</li>
-        <li>Explored LLM use cases for domain-specific workflows.</li>
-        <li>Produced documentation and repeatable experimentation notes.</li>
-      </ul>
-    </td>
-  </tr>
+### Tech
+Python, SQL, Azure Blob Storage, Azure SQL or Postgres, Prefect (or ADF), Docker, GitHub Actions, Power BI
 
-  <tr>
-    <td><b>Software Engineering Fellow</b></td>
-    <td>Headstarter AI</td>
-    <td>Jul 2024 - Present</td>
-    <td>
-      <ul>
-        <li>Implemented RAG and LLM-backed features across capstone builds.</li>
-        <li>Led rapid prototyping and sprint delivery with measurable results.</li>
-      </ul>
-    </td>
-  </tr>
-
-  <tr>
-    <td><b>Systems Automation Intern</b></td>
-    <td>YOUR_COMPANY</td>
-    <td>Sep 2022 - Present</td>
-    <td>
-      <ul>
-        <li>Automated workflows to reduce manual effort and improve reliability.</li>
-        <li>Improved query performance and reduced system downtime.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**Repo:** <AZUREOPS_LAKEHOUSE_REPO_LINK>  
+**Demo (optional):** <AZUREOPS_LAKEHOUSE_DEMO_LINK>
 
 <hr/>
-
-<!-- ========================= -->
-<!--  SKILL SPECTRUM / ARCH    -->
-<!-- ========================= -->
 
 ## 🧠 Skill Spectrum Architecture
 
-### System Architecture
+### ITEP pipeline (conceptual)
 
 ```mermaid
-flowchart TB
-  A[YOUR_NAME] --> F[Frontend]
-  A --> B[Backend]
-  A --> D[DevOps]
-
-  F --> R[React]
-  F --> N[Next.js]
-  F --> G[Angular]
-
-  B --> P[Python]
-  B --> J[Node.js]
-  B --> API[REST APIs]
-
-  P --> DJ[Django]
-  P --> FL[Flask]
-
-  D --> DO[Docker]
-  D --> K8S[Kubernetes]
+flowchart LR
+  A[Public Telemetry Dataset] --> B[Dataset Manifest + Hashes]
+  B --> C[ICD + Data Contracts]
+  C --> D[Validation + Parsing]
+  D --> E[Requirements + Traceability]
+  E --> F[Automated V and V (pytest)]
+  F --> G[Performance Evaluation (Python)]
+  G --> H[MATLAB Parity Scripts]
+  F --> I[Failure Reproduction]
+  I --> J[RCA + Fix]
+  J --> K[Re-test Evidence + Release Baseline]
